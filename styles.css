@@ -89,3 +89,21 @@ a:hover {
   border-radius: 8px;
   padding: 8px 24px;
 }
+
+.info .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info .info-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info .cards {
+  display: flex;
+  text-align: center;
+}
