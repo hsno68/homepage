@@ -15,3 +15,14 @@ body {
 section {
   flex: 1;
 }
+
+header,
+section,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+}
