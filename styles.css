@@ -90,7 +90,8 @@ a:hover {
   padding: 8px 24px;
 }
 
-.info .container {
+.info .container,
+.testimony .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,4 +108,25 @@ a:hover {
 .info .cards {
   display: flex;
   text-align: center;
+}
+
+.testimony {
+  background-color: #e5e7eb;
+}
+
+.testimony .container {
+  gap: 0;
+}
+
+.testimony .quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.testimony .author {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
 }
