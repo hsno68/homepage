@@ -130,3 +130,16 @@ a:hover {
   font-weight: bold;
   align-self: flex-end;
 }
+
+.call .container {
+  color: #f9faf8;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.call .sign-up {
+  border: 2px solid #f9faf8;
+}
