@@ -29,13 +29,15 @@ footer {
 }
 
 header,
-footer {
+footer,
+.hero {
   color: #f9faf8;
   background-color: #1f2937;
   text-align: center;
 }
 
-.header .container {
+.header .container,
+.hero .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,4 +60,32 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.hero {
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.nav-item a,
+.hero-subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-subtext {
+  margin: 1rem 0;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  font-size: 1rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
 }
