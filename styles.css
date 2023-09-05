@@ -112,10 +112,13 @@ a:hover {
   gap: 2rem;
 }
 
+.info {
+  color: #063f5c;
+}
+
 .info .info-title {
   font-size: 32px;
   font-weight: 900;
-  color: #1f2937;
 }
 
 .info .cards {
@@ -132,6 +135,7 @@ a:hover {
 }
 
 .testimony {
+  color: #1f2937;
   background-color: #e5e7eb;
 }
 
@@ -143,7 +147,6 @@ a:hover {
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
-  color: #1f2937;
 }
 
 .testimony .author {
