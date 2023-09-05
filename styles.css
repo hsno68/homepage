@@ -207,3 +207,7 @@ a:hover {
 .call .sign-up {
   border: 2px solid #f9faf8;
 }
+
+p {
+  line-height: 1.3;
+}
