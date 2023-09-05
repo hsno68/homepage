@@ -41,8 +41,8 @@ footer,
   align-items: center;
 }
 
-.header .header-logo {
-  font-size: 24px;
+.header-logo {
+  width: 200px;
 }
 
 .header .nav {
